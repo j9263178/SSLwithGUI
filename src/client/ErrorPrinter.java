@@ -1,3 +1,5 @@
+package client;
+
 import java.awt.Font;
 
 import javax.swing.JFrame;
@@ -6,12 +8,12 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 
-public class errprinter {
+public class ErrorPrinter {
 	private JFrame frame;
 	int i;
 	private JTextArea display;
 	private JScrollPane scrollPane;
- public errprinter(int i) {
+ public ErrorPrinter(int i) {
 	 this.i=i;
 	 err(i);
  }
@@ -54,8 +56,7 @@ public class errprinter {
 				"there you can also find the files you need! \n\n"+
 				"Contact us if you have any problem: \n"+
 				"Jeffry : jeffry1829@gmail.com \n"+
-				"Joseph : j9263178@gmail.com\n"+
-				"		     B07202035 許可 20190616");
+				"Joseph : j9263178@gmail.com");
 		
 		
 	}	
